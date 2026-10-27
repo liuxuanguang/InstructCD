@@ -1,0 +1,3617 @@
+实验方法: 仅在线转换处理
+开始时间: 2026-05-17 20:55:14
+总指令数: 300
+总处理时间: 1319.99秒
+平均每个指令处理时间: 4.4000秒
+启用LLM: True
+使用库文件: empty_core_library.json
+============================================================
+
+成功转换: 300/300
+成功率: 100.0%
+
+appearance: 29/29 (100.0%)
+disappearance: 15/15 (100.0%)
+
+============================================================
+
+转换指令: 'impervious vanish'
+  处理时间: 3.9614秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: impervious
+  转换关系: impervious→background
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge residential'
+  处理时间: 6.1660秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: residential
+  转换关系: background→residential
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify transportation changes'
+  处理时间: 4.5721秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: transportation
+  转换关系: background→transportation, transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from water to mangrove'
+  处理时间: 4.2525秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: mangrove, water
+  转换关系: water→mangrove
+  时相1指令: water;mangrove
+  时相2指令: water;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting vineyard change'
+  处理时间: 2.5673秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: vineyard
+  转换关系: background→vineyard, vineyard→background
+  时相1指令: vineyard
+  时相2指令: vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'savanna vanish'
+  处理时间: 2.4959秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: savanna
+  转换关系: savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'building disappeared'
+  处理时间: 2.3639秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: building
+  转换关系: building→background
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of residential'
+  处理时间: 4.8310秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: residential
+  转换关系: residential→background
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify industrial changes'
+  处理时间: 5.2057秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: industrial
+  转换关系: background→industrial, industrial→background
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'cropland disappeared'
+  处理时间: 4.1861秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: cropland
+  转换关系: cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in lake'
+  处理时间: 5.4876秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: lake
+  转换关系: background→lake, lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in wetland'
+  处理时间: 3.6290秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: wetland
+  转换关系: background→wetland, wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from rock to vineyard'
+  处理时间: 4.3501秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: rock, vineyard
+  转换关系: rock→vineyard
+  时相1指令: rock;vineyard
+  时相2指令: rock;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge orchard'
+  处理时间: 4.3482秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: orchard
+  转换关系: background→orchard
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge lake'
+  处理时间: 4.5066秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: lake
+  转换关系: background→lake
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of sand'
+  处理时间: 6.3137秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: sand
+  转换关系: sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from residential to commercial'
+  处理时间: 13.6784秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: commercial, residential
+  转换关系: residential→commercial
+  时相1指令: residential;commercial
+  时相2指令: residential;commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new lake'
+  处理时间: 2.7089秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: lake
+  转换关系: background→lake
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from cropland to building'
+  处理时间: 3.6710秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: building, cropland
+  转换关系: cropland→building
+  时相1指令: cropland;building
+  时相2指令: cropland;building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform forest into impervious'
+  处理时间: 5.1375秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: impervious, tree
+  转换关系: impervious→tree, tree→impervious
+  时相1指令: tree;impervious
+  时相2指令: tree;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting mining change'
+  处理时间: 5.3103秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mining
+  转换关系: background→mining, mining→background
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify ocean changes'
+  处理时间: 4.6878秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ocean
+  转换关系: background→ocean, ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'ocean vanish'
+  处理时间: 3.0508秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ocean
+  转换关系: ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from orchard to forest'
+  处理时间: 3.1523秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: orchard, tree
+  转换关系: orchard→forest
+  时相1指令: orchard;tree
+  时相2指令: orchard;tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify shrubland changes'
+  处理时间: 2.9715秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: shrubland
+  转换关系: background→shrubland, shrubland→background
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'residential disappeared'
+  处理时间: 2.7477秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: residential
+  转换关系: residential→background
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear wetland and new industrial'
+  处理时间: 3.7803秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: industrial, wetland
+  转换关系: wetland→background, background→industrial
+  时相1指令: wetland;industrial
+  时相2指令: wetland;industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting bare land change'
+  处理时间: 4.8834秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: bare land
+  转换关系: background→bare land, bare land→background
+  时相1指令: bare land
+  时相2指令: bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new cropland'
+  处理时间: 4.4184秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: cropland
+  转换关系: background→cropland
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear lake'
+  处理时间: 2.9219秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: lake
+  转换关系: background→lake
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'ice vanish'
+  处理时间: 3.8462秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ice
+  转换关系: ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'mining disappeared'
+  处理时间: 2.8474秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: mining
+  转换关系: mining→background
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge water'
+  处理时间: 4.8560秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: water
+  转换关系: background→water
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from ocean to ice'
+  处理时间: 4.2296秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, ocean
+  转换关系: ocean→ice
+  时相1指令: ocean;ice
+  时相2指令: ocean;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting lake change'
+  处理时间: 2.7530秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: lake
+  转换关系: background→lake, lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in water'
+  处理时间: 4.5572秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: water
+  转换关系: background→water, water→background
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'cropland change detection'
+  处理时间: 3.2293秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: cropland
+  转换关系: background→cropland, cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear mangrove and disappear ocean'
+  处理时间: 4.9259秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: mangrove, ocean
+  转换关系: mangrove→background, ocean→background
+  时相1指令: mangrove;ocean
+  时相2指令: mangrove;ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from river to wetland'
+  处理时间: 4.4169秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: river, wetland
+  转换关系: river→wetland
+  时相1指令: river;wetland
+  时相2指令: river;wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new bare land'
+  处理时间: 3.4507秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: bare land
+  转换关系: background→bare land
+  时相1指令: bare land
+  时相2指令: bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of cropland'
+  处理时间: 7.0288秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: cropland
+  转换关系: background→cropland
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from snow to orchard'
+  处理时间: 5.2897秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: orchard, snow
+  转换关系: snow→orchard
+  时相1指令: snow;orchard
+  时相2指令: snow;orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify river changes'
+  处理时间: 4.8294秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: river
+  转换关系: background→river, river→background
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'industrial disappeared'
+  处理时间: 3.9880秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: industrial
+  转换关系: industrial→background
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge grassland'
+  处理时间: 4.2999秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: vegetation
+  转换关系: background→vegetation
+  时相1指令: vegetation
+  时相2指令: vegetation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'river change detection'
+  处理时间: 3.1717秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: river
+  转换关系: background→river, river→background
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new orchard and new savanna'
+  处理时间: 5.3922秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: orchard, savanna
+  转换关系: background→orchard, background→savanna
+  时相1指令: orchard;savanna
+  时相2指令: orchard;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear snow and disappear mangrove'
+  处理时间: 2.7725秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: mangrove, snow
+  转换关系: snow→background, mangrove→background
+  时相1指令: snow;mangrove
+  时相2指令: snow;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of sand'
+  处理时间: 5.5339秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: sand
+  转换关系: background→sand
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new industrial and new building'
+  处理时间: 2.9907秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: building, industrial
+  转换关系: background→industrial, background→building
+  时相1指令: industrial;building
+  时相2指令: industrial;building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting impervious change'
+  处理时间: 4.5974秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: impervious
+  转换关系: background→impervious, impervious→background
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear water and disappear building'
+  处理时间: 3.8779秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: building, water
+  转换关系: water→background, building→background
+  时相1指令: water;building
+  时相2指令: water;building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting orchard change'
+  处理时间: 4.3288秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: orchard
+  转换关系: background→orchard, orchard→background
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of ice'
+  处理时间: 3.9091秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ice
+  转换关系: ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge impervious'
+  处理时间: 4.8419秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: impervious
+  转换关系: background→impervious
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge shrubland'
+  处理时间: 3.6407秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: shrubland
+  转换关系: background→shrubland
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of rock'
+  处理时间: 6.3341秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: rock
+  转换关系: background→rock
+  时相1指令: rock
+  时相2指令: rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from river to vineyard'
+  处理时间: 3.5409秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: river, vineyard
+  转换关系: river→vineyard
+  时相1指令: river;vineyard
+  时相2指令: river;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from building to rock'
+  处理时间: 4.8871秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: building, rock
+  转换关系: building→rock
+  时相1指令: building;rock
+  时相2指令: building;rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new transportation and new impervious'
+  处理时间: 5.2340秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: impervious, transportation
+  转换关系: background→transportation, background→impervious
+  时相1指令: transportation;impervious
+  时相2指令: transportation;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new snow and new transportation'
+  处理时间: 4.4989秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: snow, transportation
+  转换关系: background→snow, background→transportation
+  时相1指令: snow;transportation
+  时相2指令: snow;transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'lake disappeared'
+  处理时间: 2.9168秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: lake
+  转换关系: lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new transportation and disappear commercial'
+  处理时间: 3.5302秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: commercial, transportation
+  转换关系: background→transportation, commercial→background
+  时相1指令: transportation;commercial
+  时相2指令: transportation;commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear transportation'
+  处理时间: 4.3987秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: transportation
+  转换关系: background→transportation
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform commercial into mangrove'
+  处理时间: 5.9376秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: commercial, mangrove
+  转换关系: commercial→mangrove, mangrove→commercial
+  时相1指令: commercial;mangrove
+  时相2指令: commercial;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from ice to savanna'
+  处理时间: 6.1747秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, savanna
+  转换关系: ice→savanna
+  时相1指令: ice
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of rock'
+  处理时间: 2.7817秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: rock
+  转换关系: rock→background
+  时相1指令: rock
+  时相2指令: rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge industrial'
+  处理时间: 2.9385秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: industrial
+  转换关系: background→industrial
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'bare land vanish'
+  处理时间: 5.5484秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: bare land
+  转换关系: bare land→background
+  时相1指令: bare land
+  时相2指令: bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform ice into water'
+  处理时间: 5.7859秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, water
+  转换关系: ice→water, water→ice
+  时相1指令: ice;water
+  时相2指令: ice;water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting mangrove change'
+  处理时间: 4.4362秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mangrove
+  转换关系: background→mangrove, mangrove→background
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting wetland change'
+  处理时间: 3.3902秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: wetland
+  转换关系: background→wetland, wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear cropland and new industrial'
+  处理时间: 5.7158秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: cropland, industrial
+  转换关系: cropland→background, background→industrial
+  时相1指令: cropland;industrial
+  时相2指令: cropland;industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform rock into bare land'
+  处理时间: 5.8591秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: bare land, rock
+  转换关系: bare land→rock, rock→bare land
+  时相1指令: rock;bare land
+  时相2指令: rock;bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from river to grassland'
+  处理时间: 4.4627秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: river, vegetation
+  转换关系: river→grassland
+  时相1指令: river;vegetation
+  时相2指令: river;vegetation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new impervious and disappear snow'
+  处理时间: 3.7221秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: impervious, snow
+  转换关系: background→impervious, snow→background
+  时相1指令: impervious;snow
+  时相2指令: impervious;snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear rock'
+  处理时间: 5.6995秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: rock
+  转换关系: background→rock
+  时相1指令: rock
+  时相2指令: rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of snow'
+  处理时间: 3.1690秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: snow
+  转换关系: background→snow
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new ice and new cropland'
+  处理时间: 2.7932秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: cropland, ice
+  转换关系: background→ice, background→cropland
+  时相1指令: ice;cropland
+  时相2指令: ice;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear mangrove and new grassland'
+  处理时间: 4.5472秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: mangrove, vegetation
+  转换关系: mangrove→background
+  时相1指令: mangrove;vegetation
+  时相2指令: mangrove;vegetation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'orchard vanish'
+  处理时间: 3.7146秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: orchard
+  转换关系: orchard→background
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new forest and new vineyard'
+  处理时间: 5.0911秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: tree, vineyard
+  转换关系: background→vineyard
+  时相1指令: tree;vineyard
+  时相2指令: tree;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from shrubland to lake'
+  处理时间: 6.9265秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: lake, shrubland
+  转换关系: shrubland→lake
+  时相1指令: shrubland;lake
+  时相2指令: shrubland;lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new forest and new residential'
+  处理时间: 3.3295秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: residential, tree
+  转换关系: background→residential
+  时相1指令: tree;residential
+  时相2指令: tree;residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of shrubland'
+  处理时间: 3.2492秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: shrubland
+  转换关系: shrubland→background
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'grassland vanish'
+  处理时间: 4.0196秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: vegetation
+  转换关系: vegetation→background
+  时相1指令: vegetation
+  时相2指令: vegetation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from lake to sand'
+  处理时间: 4.0799秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: lake, sand
+  转换关系: lake→sand
+  时相1指令: lake;sand
+  时相2指令: lake;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new residential'
+  处理时间: 4.9913秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: residential
+  转换关系: background→residential
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear ice'
+  处理时间: 5.7088秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: ice
+  转换关系: background→ice
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of building'
+  处理时间: 2.9868秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: building
+  转换关系: background→building
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from rock to bare land'
+  处理时间: 5.9691秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: bare land, rock
+  转换关系: rock→bare land
+  时相1指令: rock;bare land
+  时相2指令: rock;bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform rock into ice'
+  处理时间: 5.4051秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, rock
+  转换关系: ice→rock, rock→ice
+  时相1指令: rock;ice
+  时相2指令: rock;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in transportation'
+  处理时间: 5.5368秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: transportation
+  转换关系: background→transportation, transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new sand'
+  处理时间: 3.1998秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: sand
+  转换关系: background→sand
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'building vanish'
+  处理时间: 4.4423秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: building
+  转换关系: building→background
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge transportation'
+  处理时间: 4.8608秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: transportation
+  转换关系: background→transportation
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify building changes'
+  处理时间: 4.5871秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: building
+  转换关系: background→building, building→background
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new grassland and new river'
+  处理时间: 3.4792秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: river, vegetation
+  转换关系: background→river
+  时相1指令: vegetation;river
+  时相2指令: vegetation;river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear forest and new cropland'
+  处理时间: 3.7069秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: cropland, tree
+  转换关系: background→cropland
+  时相1指令: tree;cropland
+  时相2指令: tree;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear shrubland and disappear bare land'
+  处理时间: 3.1391秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: bare land, shrubland
+  转换关系: shrubland→background, bare land→background
+  时相1指令: shrubland;bare land
+  时相2指令: shrubland;bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear cropland and new river'
+  处理时间: 3.7488秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: cropland, river
+  转换关系: cropland→background, background→river
+  时相1指令: cropland;river
+  时相2指令: cropland;river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of transportation'
+  处理时间: 3.4680秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: transportation
+  转换关系: transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in river'
+  处理时间: 3.2118秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: river
+  转换关系: background→river, river→background
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear forest'
+  处理时间: 3.3070秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: tree
+  转换关系: background→tree
+  时相1指令: tree
+  时相2指令: tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of transportation'
+  处理时间: 5.6931秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: transportation
+  转换关系: background→transportation
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear vineyard and new building'
+  处理时间: 5.1851秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: building, vineyard
+  转换关系: vineyard→background, background→building
+  时相1指令: vineyard;building
+  时相2指令: vineyard;building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of river'
+  处理时间: 3.0258秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: river
+  转换关系: river→background
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform mining into impervious'
+  处理时间: 4.7661秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: impervious, mining
+  转换关系: impervious→mining, mining→impervious
+  时相1指令: mining;impervious
+  时相2指令: mining;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of lake'
+  处理时间: 4.3320秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: lake
+  转换关系: lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear ocean and disappear vineyard'
+  处理时间: 6.5162秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: ocean, vineyard
+  转换关系: ocean→background, vineyard→background
+  时相1指令: ocean;vineyard
+  时相2指令: ocean;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of mangrove'
+  处理时间: 4.6167秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mangrove
+  转换关系: background→mangrove
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new shrubland and disappear ocean'
+  处理时间: 6.3149秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: ocean, shrubland
+  转换关系: background→shrubland, ocean→background
+  时相1指令: shrubland;ocean
+  时相2指令: shrubland;ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'forest disappeared'
+  处理时间: 3.9299秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: tree
+  转换关系: tree→background
+  时相1指令: tree
+  时相2指令: tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge forest'
+  处理时间: 5.3695秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: tree
+  转换关系: background→tree
+  时相1指令: tree
+  时相2指令: tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'sand vanish'
+  处理时间: 3.9200秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: sand
+  转换关系: sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform lake into water'
+  处理时间: 7.1531秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: lake, water
+  转换关系: lake→water, water→lake
+  时相1指令: lake;water
+  时相2指令: lake;water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify forest changes'
+  处理时间: 3.5649秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: tree
+  转换关系: background→tree, tree→background
+  时相1指令: tree
+  时相2指令: tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new commercial and disappear cropland'
+  处理时间: 3.9441秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: commercial, cropland
+  转换关系: background→commercial, cropland→background
+  时相1指令: commercial;cropland
+  时相2指令: commercial;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transportation vanish'
+  处理时间: 4.2599秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: transportation
+  转换关系: transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of river'
+  处理时间: 3.6016秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: river
+  转换关系: background→river
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify vineyard changes'
+  处理时间: 5.6952秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: vineyard
+  转换关系: background→vineyard, vineyard→background
+  时相1指令: vineyard
+  时相2指令: vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from savanna to water'
+  处理时间: 5.9242秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: savanna, water
+  转换关系: savanna→water
+  时相1指令: savanna
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of ocean'
+  处理时间: 3.1995秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ocean
+  转换关系: ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from commercial to shrubland'
+  处理时间: 4.5721秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: commercial, shrubland
+  转换关系: commercial→shrubland
+  时相1指令: commercial;shrubland
+  时相2指令: commercial;shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from savanna to ocean'
+  处理时间: 6.4860秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ocean, savanna
+  转换关系: savanna→ocean
+  时相1指令: savanna;ocean
+  时相2指令: savanna;ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify mangrove changes'
+  处理时间: 3.1236秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mangrove
+  转换关系: background→mangrove, mangrove→background
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of impervious'
+  处理时间: 5.5193秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: impervious
+  转换关系: impervious→background
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new bare land and new ocean'
+  处理时间: 3.7272秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: bare land, ocean
+  转换关系: background→bare land, background→ocean
+  时相1指令: bare land;ocean
+  时相2指令: bare land;ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of transportation'
+  处理时间: 4.8149秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: transportation
+  转换关系: transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of ice'
+  处理时间: 2.4726秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ice
+  转换关系: ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new wetland and new savanna'
+  处理时间: 3.3292秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: savanna, wetland
+  转换关系: background→wetland, background→savanna
+  时相1指令: wetland;savanna
+  时相2指令: wetland;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new ocean and disappear building'
+  处理时间: 3.7051秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: building, ocean
+  转换关系: background→ocean, building→background
+  时相1指令: ocean;building
+  时相2指令: ocean;building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'sand disappeared'
+  处理时间: 3.9820秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: sand
+  转换关系: sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear shrubland and disappear mining'
+  处理时间: 2.5560秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: mining, shrubland
+  转换关系: shrubland→background, mining→background
+  时相1指令: shrubland;mining
+  时相2指令: shrubland;mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'ice disappeared'
+  处理时间: 5.0234秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ice
+  转换关系: ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear water and disappear forest'
+  处理时间: 3.0502秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: tree, water
+  转换关系: water→background
+  时相1指令: water;tree
+  时相2指令: water;tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear snow and new impervious'
+  处理时间: 2.9895秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: impervious, snow
+  转换关系: snow→background, background→impervious
+  时相1指令: snow;impervious
+  时相2指令: snow;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'residential vanish'
+  处理时间: 3.2438秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: residential
+  转换关系: residential→background
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new orchard'
+  处理时间: 3.0474秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: orchard
+  转换关系: background→orchard
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify ice changes'
+  处理时间: 5.0499秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ice
+  转换关系: background→ice, ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new bare land and disappear industrial'
+  处理时间: 4.3130秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: bare land, industrial
+  转换关系: background→bare land, industrial→background
+  时相1指令: bare land;industrial
+  时相2指令: bare land;industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of industrial'
+  处理时间: 5.7889秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: industrial
+  转换关系: background→industrial
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from cropland to grassland'
+  处理时间: 5.9320秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: cropland, vegetation
+  转换关系: cropland→grassland
+  时相1指令: cropland;vegetation
+  时相2指令: cropland;vegetation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'savanna change detection'
+  处理时间: 5.1300秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: savanna
+  转换关系: background→savanna, savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from river to snow'
+  处理时间: 3.7961秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: river, snow
+  转换关系: river→snow
+  时相1指令: river;snow
+  时相2指令: river;snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'commercial vanish'
+  处理时间: 5.5816秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: commercial
+  转换关系: commercial→background
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new shrubland and new cropland'
+  处理时间: 4.5834秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: cropland, shrubland
+  转换关系: background→shrubland, background→cropland
+  时相1指令: shrubland;cropland
+  时相2指令: shrubland;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new commercial'
+  处理时间: 3.9067秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: commercial
+  转换关系: background→commercial
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'wetland change detection'
+  处理时间: 5.2082秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: wetland
+  转换关系: background→wetland, wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear river'
+  处理时间: 3.9687秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: river
+  转换关系: background→river
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of vineyard'
+  处理时间: 3.5339秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: vineyard
+  转换关系: vineyard→background
+  时相1指令: vineyard
+  时相2指令: vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform water into lake'
+  处理时间: 4.8143秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: lake, water
+  转换关系: lake→water, water→lake
+  时相1指令: water;lake
+  时相2指令: water;lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'cropland vanish'
+  处理时间: 4.4478秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: cropland
+  转换关系: cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'mangrove change detection'
+  处理时间: 4.7749秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mangrove
+  转换关系: background→mangrove, mangrove→background
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear vineyard and new residential'
+  处理时间: 4.9782秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: residential, vineyard
+  转换关系: vineyard→background, background→residential
+  时相1指令: vineyard;residential
+  时相2指令: vineyard;residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge savanna'
+  处理时间: 3.8307秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: savanna
+  转换关系: background→savanna
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of wetland'
+  处理时间: 4.8083秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: wetland
+  转换关系: background→wetland
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of residential'
+  处理时间: 4.8269秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: residential
+  转换关系: background→residential
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge mining'
+  处理时间: 3.3579秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mining
+  转换关系: background→mining
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of industrial'
+  处理时间: 3.9996秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: industrial
+  转换关系: industrial→background
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from sand to building'
+  处理时间: 4.2567秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: building, sand
+  转换关系: sand→building
+  时相1指令: sand;building
+  时相2指令: sand;building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge ice'
+  处理时间: 4.0527秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: ice
+  转换关系: background→ice
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new savanna and new impervious'
+  处理时间: 5.1051秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: impervious, savanna
+  转换关系: background→savanna, background→impervious
+  时相1指令: savanna;impervious
+  时相2指令: savanna;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new industrial and new grassland'
+  处理时间: 3.4020秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: industrial, vegetation
+  转换关系: background→industrial
+  时相1指令: industrial;vegetation
+  时相2指令: industrial;vegetation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of mining'
+  处理时间: 5.1090秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mining
+  转换关系: background→mining
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of grassland'
+  处理时间: 3.4083秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: vegetation
+  转换关系: vegetation→background
+  时相1指令: vegetation
+  时相2指令: vegetation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from mining to mangrove'
+  处理时间: 4.8263秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: mangrove, mining
+  转换关系: mining→mangrove
+  时相1指令: mining;mangrove
+  时相2指令: mining;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting savanna change'
+  处理时间: 5.0317秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: savanna
+  转换关系: background→savanna, savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify snow changes'
+  处理时间: 3.6390秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: snow
+  转换关系: background→snow, snow→background
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify sand changes'
+  处理时间: 4.6426秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: sand
+  转换关系: background→sand, sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear sand and new vineyard'
+  处理时间: 4.8538秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: sand, vineyard
+  转换关系: sand→background, background→vineyard
+  时相1指令: sand;vineyard
+  时相2指令: sand;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform ice into sand'
+  处理时间: 4.1137秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, sand
+  转换关系: ice→sand, sand→ice
+  时相1指令: ice;sand
+  时相2指令: ice;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new orchard and disappear ice'
+  处理时间: 4.2603秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: ice, orchard
+  转换关系: background→orchard, ice→background
+  时相1指令: orchard;ice
+  时相2指令: orchard;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of lake'
+  处理时间: 5.8305秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: lake
+  转换关系: lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify commercial changes'
+  处理时间: 4.7343秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: commercial
+  转换关系: background→commercial, commercial→background
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of industrial'
+  处理时间: 4.1989秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: industrial
+  转换关系: industrial→background
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of residential'
+  处理时间: 4.7595秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: residential
+  转换关系: residential→background
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'mangrove disappeared'
+  处理时间: 3.2437秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: mangrove
+  转换关系: mangrove→background
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'water change detection'
+  处理时间: 4.9206秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: water
+  转换关系: background→water, water→background
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear bare land and new sand'
+  处理时间: 4.0387秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: bare land, sand
+  转换关系: bare land→background, background→sand
+  时相1指令: bare land;sand
+  时相2指令: bare land;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify mining changes'
+  处理时间: 4.1385秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mining
+  转换关系: background→mining, mining→background
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting forest change'
+  处理时间: 3.8345秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: tree
+  转换关系: background→tree, tree→background
+  时相1指令: tree
+  时相2指令: tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of savanna'
+  处理时间: 5.0144秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: savanna
+  转换关系: savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in mangrove'
+  处理时间: 4.9888秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mangrove
+  转换关系: background→mangrove, mangrove→background
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear ocean and disappear industrial'
+  处理时间: 4.5102秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: industrial, ocean
+  转换关系: ocean→background, industrial→background
+  时相1指令: ocean;industrial
+  时相2指令: ocean;industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new lake and disappear bare land'
+  处理时间: 3.9316秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: bare land, lake
+  转换关系: background→lake, bare land→background
+  时相1指令: lake;bare land
+  时相2指令: lake;bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'savanna disappeared'
+  处理时间: 4.4816秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: savanna
+  转换关系: savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in snow'
+  处理时间: 4.3780秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: snow
+  转换关系: background→snow, snow→background
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting ice change'
+  处理时间: 4.2775秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ice
+  转换关系: background→ice, ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear river and disappear shrubland'
+  处理时间: 5.0280秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: river, shrubland
+  转换关系: river→background, shrubland→background
+  时相1指令: river;shrubland
+  时相2指令: river;shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new mangrove'
+  处理时间: 3.3713秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mangrove
+  转换关系: background→mangrove
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear savanna'
+  处理时间: 3.6636秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: savanna
+  转换关系: background→savanna
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'water disappeared'
+  处理时间: 4.4998秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: water
+  转换关系: water→background
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from cropland to forest'
+  处理时间: 4.6767秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: cropland, tree
+  转换关系: cropland→forest
+  时相1指令: cropland;tree
+  时相2指令: cropland;tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform sand into residential'
+  处理时间: 6.6062秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: residential, sand
+  转换关系: residential→sand, sand→residential
+  时相1指令: sand;residential
+  时相2指令: sand;residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of commercial'
+  处理时间: 4.1608秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: commercial
+  转换关系: commercial→background
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from vineyard to river'
+  处理时间: 3.4340秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: river, vineyard
+  转换关系: vineyard→river
+  时相1指令: vineyard;river
+  时相2指令: vineyard;river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform river into savanna'
+  处理时间: 5.9236秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: river, savanna
+  转换关系: river→savanna, savanna→river
+  时相1指令: river
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform impervious into mining'
+  处理时间: 5.1033秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: impervious, mining
+  转换关系: impervious→mining, mining→impervious
+  时相1指令: impervious;mining
+  时相2指令: impervious;mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new bare land and new sand'
+  处理时间: 4.9526秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: bare land, sand
+  转换关系: background→bare land, background→sand
+  时相1指令: bare land;sand
+  时相2指令: bare land;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear water and new industrial'
+  处理时间: 4.2484秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: industrial, water
+  转换关系: water→background, background→industrial
+  时相1指令: water;industrial
+  时相2指令: water;industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from residential to cropland'
+  处理时间: 4.6972秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: cropland, residential
+  转换关系: residential→cropland
+  时相1指令: residential;cropland
+  时相2指令: residential;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from ice to vineyard'
+  处理时间: 6.6459秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, vineyard
+  转换关系: ice→vineyard
+  时相1指令: ice;vineyard
+  时相2指令: ice;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from wetland to ice'
+  处理时间: 6.4915秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, wetland
+  转换关系: wetland→ice
+  时相1指令: wetland
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in ocean'
+  处理时间: 3.9755秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ocean
+  转换关系: background→ocean, ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge cropland'
+  处理时间: 5.4739秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: cropland
+  转换关系: background→cropland
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of forest'
+  处理时间: 5.0916秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: tree
+  转换关系: tree→background
+  时相1指令: tree
+  时相2指令: tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from mangrove to sand'
+  处理时间: 4.8710秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: mangrove, sand
+  转换关系: mangrove→sand
+  时相1指令: mangrove;sand
+  时相2指令: mangrove;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in commercial'
+  处理时间: 3.0303秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: commercial
+  转换关系: background→commercial, commercial→background
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new snow'
+  处理时间: 5.0940秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: snow
+  转换关系: background→snow
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of wetland'
+  处理时间: 6.4035秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: wetland
+  转换关系: wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of ocean'
+  处理时间: 4.2639秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ocean
+  转换关系: ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear sand and new commercial'
+  处理时间: 4.1448秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: commercial, sand
+  转换关系: sand→background, background→commercial
+  时相1指令: sand;commercial
+  时相2指令: sand;commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear commercial and disappear cropland'
+  处理时间: 3.2171秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: commercial, cropland
+  转换关系: commercial→background, cropland→background
+  时相1指令: commercial;cropland
+  时相2指令: commercial;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of orchard'
+  处理时间: 5.3603秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: orchard
+  转换关系: orchard→background
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform mining into grassland'
+  处理时间: 4.4477秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: mining, vegetation
+  转换关系: mining→vegetation, vegetation→mining
+  时相1指令: mining;vegetation
+  时相2指令: mining;vegetation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in savanna'
+  处理时间: 4.6120秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: savanna
+  转换关系: background→savanna, savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from mining to savanna'
+  处理时间: 5.0163秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: mining, savanna
+  转换关系: mining→savanna
+  时相1指令: mining;savanna
+  时相2指令: mining;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify grassland changes'
+  处理时间: 5.5772秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: vegetation
+  转换关系: background→vegetation, vegetation→background
+  时相1指令: vegetation
+  时相2指令: vegetation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new orchard and disappear residential'
+  处理时间: 3.6259秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: orchard, residential
+  转换关系: background→orchard, residential→background
+  时相1指令: orchard;residential
+  时相2指令: orchard;residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear sand'
+  处理时间: 2.3161秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: sand
+  转换关系: background→sand
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new mining'
+  处理时间: 5.8936秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mining
+  转换关系: background→mining
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of commercial'
+  处理时间: 5.8218秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: commercial
+  转换关系: background→commercial
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from sand to transportation'
+  处理时间: 4.2525秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: sand, transportation
+  转换关系: sand→transportation
+  时相1指令: sand;transportation
+  时相2指令: sand;transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from commercial to mangrove'
+  处理时间: 4.2533秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: commercial, mangrove
+  转换关系: commercial→mangrove
+  时相1指令: commercial;mangrove
+  时相2指令: commercial;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in cropland'
+  处理时间: 6.3388秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: cropland
+  转换关系: background→cropland, cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in residential'
+  处理时间: 5.2588秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: residential
+  转换关系: background→residential, residential→background
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'commercial change detection'
+  处理时间: 3.7971秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: commercial
+  转换关系: background→commercial, commercial→background
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear orchard and new ocean'
+  处理时间: 4.3874秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: ocean, orchard
+  转换关系: orchard→background, background→ocean
+  时相1指令: orchard;ocean
+  时相2指令: orchard;ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear shrubland and disappear vineyard'
+  处理时间: 4.7370秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: shrubland, vineyard
+  转换关系: shrubland→background, vineyard→background
+  时相1指令: shrubland;vineyard
+  时相2指令: shrubland;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear industrial'
+  处理时间: 2.7015秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: industrial
+  转换关系: background→industrial
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform building into industrial'
+  处理时间: 4.6221秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: building, industrial
+  转换关系: building→industrial, industrial→building
+  时相1指令: building;industrial
+  时相2指令: building;industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from lake to impervious'
+  处理时间: 5.9253秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: impervious, lake
+  转换关系: lake→impervious
+  时相1指令: lake;impervious
+  时相2指令: lake;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new water and new orchard'
+  处理时间: 3.2436秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: orchard, water
+  转换关系: background→water, background→orchard
+  时相1指令: water;orchard
+  时相2指令: water;orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from ocean to wetland'
+  处理时间: 4.7665秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: change_area
+  转换关系: ocean→wetland
+  时相1指令: change_area
+  时相2指令: change_area
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform grassland into ice'
+  处理时间: 3.8753秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, vegetation
+  转换关系: ice→vegetation, vegetation→ice
+  时相1指令: vegetation;ice
+  时相2指令: vegetation;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'ice change detection'
+  处理时间: 5.5258秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ice
+  转换关系: background→ice, ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting sand change'
+  处理时间: 3.4465秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: sand
+  转换关系: background→sand, sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear vineyard and disappear cropland'
+  处理时间: 4.5311秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: cropland, vineyard
+  转换关系: vineyard→background, cropland→background
+  时相1指令: vineyard;cropland
+  时相2指令: vineyard;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new ice and new impervious'
+  处理时间: 3.5204秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: ice, impervious
+  转换关系: background→ice, background→impervious
+  时相1指令: ice;impervious
+  时相2指令: ice;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of impervious'
+  处理时间: 3.0271秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: impervious
+  转换关系: background→impervious
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'forest vanish'
+  处理时间: 3.7551秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: tree
+  转换关系: tree→background
+  时相1指令: tree
+  时相2指令: tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in impervious'
+  处理时间: 4.5320秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: impervious
+  转换关系: background→impervious, impervious→background
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new industrial'
+  处理时间: 4.4899秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: industrial
+  转换关系: background→industrial
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of wetland'
+  处理时间: 4.9677秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: wetland
+  转换关系: wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'river vanish'
+  处理时间: 4.2465秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: river
+  转换关系: river→background
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new ocean'
+  处理时间: 4.5634秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: ocean
+  转换关系: background→ocean
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from impervious to sand'
+  处理时间: 4.3886秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: impervious, sand
+  转换关系: impervious→sand
+  时相1指令: impervious;sand
+  时相2指令: impervious;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'shrubland disappeared'
+  处理时间: 5.1285秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: shrubland
+  转换关系: shrubland→background
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform ice into industrial'
+  处理时间: 4.1687秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, industrial
+  转换关系: ice→industrial, industrial→ice
+  时相1指令: ice;industrial
+  时相2指令: ice;industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of rock'
+  处理时间: 3.6349秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: rock
+  转换关系: rock→background
+  时相1指令: rock
+  时相2指令: rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'impervious disappeared'
+  处理时间: 2.4569秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: impervious
+  转换关系: impervious→background
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new transportation'
+  处理时间: 3.2709秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: transportation
+  转换关系: background→transportation
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform ice into commercial'
+  处理时间: 6.0415秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: commercial, ice
+  转换关系: commercial→ice, ice→commercial
+  时相1指令: ice;commercial
+  时相2指令: ice;commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify cropland changes'
+  处理时间: 3.7530秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: cropland
+  转换关系: background→cropland, cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear grassland and disappear savanna'
+  处理时间: 3.0888秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: savanna, vegetation
+  转换关系: savanna→background
+  时相1指令: vegetation;savanna
+  时相2指令: vegetation;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new shrubland'
+  处理时间: 3.8924秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: shrubland
+  转换关系: background→shrubland
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear sand and disappear mangrove'
+  处理时间: 4.1693秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: mangrove, sand
+  转换关系: sand→background, mangrove→background
+  时相1指令: sand;mangrove
+  时相2指令: sand;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify orchard changes'
+  处理时间: 3.3169秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: orchard
+  转换关系: background→orchard, orchard→background
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new vineyard and new shrubland'
+  处理时间: 3.6838秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: shrubland, vineyard
+  转换关系: background→vineyard, background→shrubland
+  时相1指令: vineyard;shrubland
+  时相2指令: vineyard;shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in bare land'
+  处理时间: 3.1262秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: bare land
+  转换关系: background→bare land, bare land→background
+  时相1指令: bare land
+  时相2指令: bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new orchard and new vineyard'
+  处理时间: 3.2328秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: forward
+  涉及类别: orchard, vineyard
+  转换关系: background→orchard, background→vineyard
+  时相1指令: orchard;vineyard
+  时相2指令: orchard;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear building and disappear wetland'
+  处理时间: 5.1967秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: building, wetland
+  转换关系: building→background, wetland→background
+  时相1指令: building;wetland
+  时相2指令: building;wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from orchard to residential'
+  处理时间: 4.1397秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: orchard, residential
+  转换关系: orchard→residential
+  时相1指令: orchard;residential
+  时相2指令: orchard;residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new water and disappear cropland'
+  处理时间: 4.5967秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: cropland, water
+  转换关系: background→water, cropland→background
+  时相1指令: water;cropland
+  时相2指令: water;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of sand'
+  处理时间: 4.3946秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: sand
+  转换关系: sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear water'
+  处理时间: 4.0774秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: water
+  转换关系: background→water
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of orchard'
+  处理时间: 4.3477秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: orchard
+  转换关系: orchard→background
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting transportation change'
+  处理时间: 3.3905秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: transportation
+  转换关系: background→transportation, transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'ocean change detection'
+  处理时间: 3.7052秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ocean
+  转换关系: background→ocean, ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new vineyard and disappear impervious'
+  处理时间: 4.6073秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: impervious, vineyard
+  转换关系: background→vineyard, impervious→background
+  时相1指令: vineyard;impervious
+  时相2指令: vineyard;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'lake change detection'
+  处理时间: 3.6140秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: lake
+  转换关系: background→lake, lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear sand and new building'
+  处理时间: 3.8994秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: building, sand
+  转换关系: sand→background, background→building
+  时相1指令: sand;building
+  时相2指令: sand;building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear mining and disappear cropland'
+  处理时间: 3.0826秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: backward
+  涉及类别: cropland, mining
+  转换关系: mining→background, cropland→background
+  时相1指令: mining;cropland
+  时相2指令: mining;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from wetland to mining'
+  处理时间: 4.0032秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: mining, wetland
+  转换关系: wetland→mining
+  时相1指令: wetland;mining
+  时相2指令: wetland;mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear building'
+  处理时间: 4.1675秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: building
+  转换关系: background→building
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear snow'
+  处理时间: 4.7224秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: snow
+  转换关系: background→snow
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from lake to residential'
+  处理时间: 6.4713秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: lake, residential
+  转换关系: lake→residential
+  时相1指令: lake;residential
+  时相2指令: lake;residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear grassland'
+  处理时间: 2.1832秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: vegetation
+  转换关系: background→vegetation
+  时相1指令: vegetation
+  时相2指令: vegetation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from vineyard to grassland'
+  处理时间: 5.9130秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: vegetation, vineyard
+  转换关系: vineyard→grassland
+  时相1指令: vineyard;vegetation
+  时相2指令: vineyard;vegetation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify water changes'
+  处理时间: 4.3774秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: water
+  转换关系: background→water, water→background
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from orchard to residential'
+  处理时间: 4.3471秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: orchard, residential
+  转换关系: orchard→residential
+  时相1指令: orchard
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'snow change detection'
+  处理时间: 4.9723秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: snow
+  转换关系: background→snow, snow→background
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'industrial change detection'
+  处理时间: 3.6986秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: industrial
+  转换关系: background→industrial, industrial→background
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'wetland vanish'
+  处理时间: 4.4734秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: wetland
+  转换关系: wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from wetland to building'
+  处理时间: 4.7807秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: building, wetland
+  转换关系: wetland→building
+  时相1指令: wetland;building
+  时相2指令: wetland;building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from wetland to transportation'
+  处理时间: 4.5078秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: transportation, wetland
+  转换关系: wetland→transportation
+  时相1指令: wetland;transportation
+  时相2指令: wetland;transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in shrubland'
+  处理时间: 5.5912秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: shrubland
+  转换关系: background→shrubland, shrubland→background
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear mining'
+  处理时间: 3.5532秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mining
+  转换关系: background→mining
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of cropland'
+  处理时间: 4.8502秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: cropland
+  转换关系: cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear impervious'
+  处理时间: 3.0758秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: impervious
+  转换关系: background→impervious
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new rock'
+  处理时间: 3.6297秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: rock
+  转换关系: background→rock
+  时相1指令: rock
+  时相2指令: rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in building'
+  处理时间: 4.8698秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: building
+  转换关系: background→building, building→background
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new ice'
+  处理时间: 3.3111秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: ice
+  转换关系: background→ice
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of savanna'
+  处理时间: 5.2754秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: savanna
+  转换关系: savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from grassland to transportation'
+  处理时间: 7.9066秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: transportation, vegetation
+  转换关系: grassland→transportation
+  时相1指令: vegetation;transportation
+  时相2指令: vegetation;transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting snow change'
+  处理时间: 4.5813秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: snow
+  转换关系: background→snow, snow→background
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from residential to industrial'
+  处理时间: 2.8633秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: industrial, residential
+  转换关系: residential→industrial
+  时相1指令: residential;industrial
+  时相2指令: residential;industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new mining and disappear savanna'
+  处理时间: 6.1149秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: mining, savanna
+  转换关系: background→mining, savanna→background
+  时相1指令: mining;savanna
+  时相2指令: mining;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear mangrove'
+  处理时间: 3.1495秒
+  ✓ 二级转换成功：在线大语言模型转换
+  来源: llm_online
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mangrove
+  转换关系: background→mangrove
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------

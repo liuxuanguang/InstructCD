@@ -1,0 +1,3617 @@
+实验方法: 结合离线和在线处理
+开始时间: 2026-05-17 20:55:16
+总指令数: 300
+总处理时间: 1.39秒
+平均每个指令处理时间: 0.0046秒
+启用LLM: True
+使用库文件: full_core_library.json
+============================================================
+
+成功转换: 300/300
+成功率: 100.0%
+
+appearance: 29/29 (100.0%)
+disappearance: 15/15 (100.0%)
+
+============================================================
+
+转换指令: 'impervious vanish'
+  处理时间: 0.0126秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: impervious
+  转换关系: impervious→background
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge residential'
+  处理时间: 0.0091秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: residential
+  转换关系: background→residential
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify transportation changes'
+  处理时间: 0.0075秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: transportation
+  转换关系: background→transportation, transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from water to mangrove'
+  处理时间: 0.0052秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: mangrove, water
+  转换关系: water→mangrove
+  时相1指令: water;mangrove
+  时相2指令: water;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting vineyard change'
+  处理时间: 0.0050秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: vineyard
+  转换关系: background→vineyard, vineyard→background
+  时相1指令: vineyard
+  时相2指令: vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'savanna vanish'
+  处理时间: 0.0047秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: savanna
+  转换关系: savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'building disappeared'
+  处理时间: 0.0047秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: building
+  转换关系: building→background
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of residential'
+  处理时间: 0.0047秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: residential
+  转换关系: residential→background
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify industrial changes'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: industrial
+  转换关系: background→industrial, industrial→background
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'cropland disappeared'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: cropland
+  转换关系: cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in lake'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: lake
+  转换关系: background→lake, lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in wetland'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: wetland
+  转换关系: background→wetland, wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from rock to vineyard'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: rock, vineyard
+  转换关系: rock→vineyard
+  时相1指令: rock;vineyard
+  时相2指令: rock;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge orchard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: orchard
+  转换关系: background→orchard
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge lake'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: lake
+  转换关系: background→lake
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of sand'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: sand
+  转换关系: sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from residential to commercial'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: commercial, residential
+  转换关系: residential→commercial
+  时相1指令: residential;commercial
+  时相2指令: residential;commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new lake'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: lake
+  转换关系: background→lake
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from cropland to building'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: building, cropland
+  转换关系: cropland→building
+  时相1指令: cropland;building
+  时相2指令: cropland;building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform forest into impervious'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: forest, impervious
+  转换关系: forest→impervious, impervious→forest
+  时相1指令: forest;impervious
+  时相2指令: forest;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting mining change'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mining
+  转换关系: background→mining, mining→background
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify ocean changes'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ocean
+  转换关系: background→ocean, ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'ocean vanish'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ocean
+  转换关系: ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from orchard to forest'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: orchard, tree
+  转换关系: orchard→forest
+  时相1指令: orchard;tree
+  时相2指令: orchard;tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify shrubland changes'
+  处理时间: 0.0052秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: shrubland
+  转换关系: background→shrubland, shrubland→background
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'residential disappeared'
+  处理时间: 0.0048秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: residential
+  转换关系: residential→background
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear wetland and new industrial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: industrial, wetland
+  转换关系: wetland→background, background→industrial
+  时相1指令: industrial;wetland
+  时相2指令: industrial;wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting bare land change'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: bare land
+  转换关系: background→bare land, bare land→background
+  时相1指令: bare land
+  时相2指令: bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new cropland'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: cropland
+  转换关系: background→cropland
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear lake'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: lake
+  转换关系: background→lake
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'ice vanish'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ice
+  转换关系: ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'mining disappeared'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: mining
+  转换关系: mining→background
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge water'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: water
+  转换关系: background→water
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from ocean to ice'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, ocean
+  转换关系: ocean→ice
+  时相1指令: ocean;ice
+  时相2指令: ocean;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting lake change'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: lake
+  转换关系: background→lake, lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in water'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: water
+  转换关系: background→water, water→background
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'cropland change detection'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: cropland
+  转换关系: background→cropland, cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear mangrove and disappear ocean'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: mangrove, ocean
+  转换关系: mangrove→background, ocean→background
+  时相1指令: ocean;mangrove
+  时相2指令: ocean;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from river to wetland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: river, wetland
+  转换关系: river→wetland
+  时相1指令: river;wetland
+  时相2指令: river;wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new bare land'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: bare land
+  转换关系: background→bare land
+  时相1指令: bare land
+  时相2指令: bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of cropland'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: cropland
+  转换关系: background→cropland
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from snow to orchard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: orchard, snow
+  转换关系: snow→orchard
+  时相1指令: snow;orchard
+  时相2指令: snow;orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify river changes'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: river
+  转换关系: background→river, river→background
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'industrial disappeared'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: industrial
+  转换关系: industrial→background
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge grassland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: grassland
+  转换关系: background→grassland
+  时相1指令: grassland
+  时相2指令: grassland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'river change detection'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: river
+  转换关系: background→river, river→background
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new orchard and new savanna'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: orchard, savanna
+  转换关系: background→orchard, background→savanna
+  时相1指令: orchard;savanna
+  时相2指令: orchard;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear snow and disappear mangrove'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: mangrove, snow
+  转换关系: snow→background, mangrove→background
+  时相1指令: snow;mangrove
+  时相2指令: snow;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of sand'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: sand
+  转换关系: background→sand
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new industrial and new building'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: building, industrial
+  转换关系: background→industrial, background→building
+  时相1指令: building;industrial
+  时相2指令: building;industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting impervious change'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: impervious
+  转换关系: background→impervious, impervious→background
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear water and disappear building'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: building, water
+  转换关系: water→background, building→background
+  时相1指令: building;water
+  时相2指令: building;water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting orchard change'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: orchard
+  转换关系: background→orchard, orchard→background
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of ice'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ice
+  转换关系: ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: impervious
+  转换关系: background→impervious
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge shrubland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: shrubland
+  转换关系: background→shrubland
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of rock'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: rock
+  转换关系: background→rock
+  时相1指令: rock
+  时相2指令: rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from river to vineyard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: river, vineyard
+  转换关系: river→vineyard
+  时相1指令: river;vineyard
+  时相2指令: river;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from building to rock'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: building, rock
+  转换关系: building→rock
+  时相1指令: building;rock
+  时相2指令: building;rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new transportation and new impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: impervious, transportation
+  转换关系: background→transportation, background→impervious
+  时相1指令: transportation;impervious
+  时相2指令: transportation;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new snow and new transportation'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: snow, transportation
+  转换关系: background→snow, background→transportation
+  时相1指令: transportation;snow
+  时相2指令: transportation;snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'lake disappeared'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: lake
+  转换关系: lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new transportation and disappear commercial'
+  处理时间: 0.0104秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: commercial, transportation
+  转换关系: background→transportation, commercial→background
+  时相1指令: commercial;transportation
+  时相2指令: commercial;transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear transportation'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: transportation
+  转换关系: background→transportation
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform commercial into mangrove'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: commercial, mangrove
+  转换关系: commercial→mangrove, mangrove→commercial
+  时相1指令: commercial;mangrove
+  时相2指令: commercial;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from ice to savanna'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, savanna
+  转换关系: ice→savanna
+  时相1指令: ice;savanna
+  时相2指令: ice;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of rock'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: rock
+  转换关系: rock→background
+  时相1指令: rock
+  时相2指令: rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge industrial'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: industrial
+  转换关系: background→industrial
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'bare land vanish'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: bare land
+  转换关系: bare land→background
+  时相1指令: bare land
+  时相2指令: bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform ice into water'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, water
+  转换关系: ice→water, water→ice
+  时相1指令: water;ice
+  时相2指令: water;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting mangrove change'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mangrove
+  转换关系: background→mangrove, mangrove→background
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting wetland change'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: wetland
+  转换关系: background→wetland, wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear cropland and new industrial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: cropland, industrial
+  转换关系: cropland→background, background→industrial
+  时相1指令: industrial;cropland
+  时相2指令: industrial;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform rock into bare land'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: bare land, rock
+  转换关系: bare land→rock, rock→bare land
+  时相1指令: bare land;rock
+  时相2指令: bare land;rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from river to grassland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: grassland, river
+  转换关系: river→grassland
+  时相1指令: river;grassland
+  时相2指令: river;grassland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new impervious and disappear snow'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: impervious, snow
+  转换关系: background→impervious, snow→background
+  时相1指令: impervious;snow
+  时相2指令: impervious;snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear rock'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: rock
+  转换关系: background→rock
+  时相1指令: rock
+  时相2指令: rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of snow'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: snow
+  转换关系: background→snow
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new ice and new cropland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: cropland, ice
+  转换关系: background→ice, background→cropland
+  时相1指令: cropland;ice
+  时相2指令: cropland;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear mangrove and new grassland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: grassland, mangrove
+  转换关系: mangrove→background, background→grassland
+  时相1指令: grassland;mangrove
+  时相2指令: grassland;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'orchard vanish'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: orchard
+  转换关系: orchard→background
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new forest and new vineyard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: forest, vineyard
+  转换关系: background→forest, background→vineyard
+  时相1指令: forest;vineyard
+  时相2指令: forest;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from shrubland to lake'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: lake, shrubland
+  转换关系: shrubland→lake
+  时相1指令: shrubland;lake
+  时相2指令: shrubland;lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new forest and new residential'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: forest, residential
+  转换关系: background→forest, background→residential
+  时相1指令: residential;forest
+  时相2指令: residential;forest
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of shrubland'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: shrubland
+  转换关系: shrubland→background
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'grassland vanish'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: grassland
+  转换关系: grassland→background
+  时相1指令: grassland
+  时相2指令: grassland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from lake to sand'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: lake, sand
+  转换关系: lake→sand
+  时相1指令: lake;sand
+  时相2指令: lake;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new residential'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: residential
+  转换关系: background→residential
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear ice'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: ice
+  转换关系: background→ice
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of building'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: building
+  转换关系: background→building
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from rock to bare land'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: bare land, rock
+  转换关系: rock→bare land
+  时相1指令: rock;bare land
+  时相2指令: rock;bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform rock into ice'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, rock
+  转换关系: ice→rock, rock→ice
+  时相1指令: rock;ice
+  时相2指令: rock;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in transportation'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: transportation
+  转换关系: background→transportation, transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new sand'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: sand
+  转换关系: background→sand
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'building vanish'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: building
+  转换关系: building→background
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge transportation'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: transportation
+  转换关系: background→transportation
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify building changes'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: building
+  转换关系: background→building, building→background
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new grassland and new river'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: grassland, river
+  转换关系: background→grassland, background→river
+  时相1指令: grassland;river
+  时相2指令: grassland;river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear forest and new cropland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: cropland, forest
+  转换关系: forest→background, background→cropland
+  时相1指令: forest;cropland
+  时相2指令: forest;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear shrubland and disappear bare land'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: bare land, shrubland
+  转换关系: shrubland→background, bare land→background
+  时相1指令: bare land;shrubland
+  时相2指令: bare land;shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear cropland and new river'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: cropland, river
+  转换关系: cropland→background, background→river
+  时相1指令: cropland;river
+  时相2指令: cropland;river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of transportation'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: transportation
+  转换关系: transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in river'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: river
+  转换关系: background→river, river→background
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear forest'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: forest
+  转换关系: background→forest
+  时相1指令: forest
+  时相2指令: forest
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of transportation'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: transportation
+  转换关系: background→transportation
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear vineyard and new building'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: building, vineyard
+  转换关系: vineyard→background, background→building
+  时相1指令: building;vineyard
+  时相2指令: building;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of river'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: river
+  转换关系: river→background
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform mining into impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: impervious, mining
+  转换关系: impervious→mining, mining→impervious
+  时相1指令: impervious;mining
+  时相2指令: impervious;mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of lake'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: lake
+  转换关系: lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear ocean and disappear vineyard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: ocean, vineyard
+  转换关系: ocean→background, vineyard→background
+  时相1指令: vineyard;ocean
+  时相2指令: vineyard;ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of mangrove'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mangrove
+  转换关系: background→mangrove
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new shrubland and disappear ocean'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: ocean, shrubland
+  转换关系: background→shrubland, ocean→background
+  时相1指令: ocean;shrubland
+  时相2指令: ocean;shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'forest disappeared'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: forest
+  转换关系: forest→background
+  时相1指令: forest
+  时相2指令: forest
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge forest'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: forest
+  转换关系: background→forest
+  时相1指令: forest
+  时相2指令: forest
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'sand vanish'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: sand
+  转换关系: sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform lake into water'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: lake, water
+  转换关系: lake→water, water→lake
+  时相1指令: water;lake
+  时相2指令: water;lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify forest changes'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: forest
+  转换关系: background→forest, forest→background
+  时相1指令: forest
+  时相2指令: forest
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new commercial and disappear cropland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: commercial, cropland
+  转换关系: background→commercial, cropland→background
+  时相1指令: commercial;cropland
+  时相2指令: commercial;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transportation vanish'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: transportation
+  转换关系: transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of river'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: river
+  转换关系: background→river
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify vineyard changes'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: vineyard
+  转换关系: background→vineyard, vineyard→background
+  时相1指令: vineyard
+  时相2指令: vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from savanna to water'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: savanna, water
+  转换关系: savanna→water
+  时相1指令: savanna;water
+  时相2指令: savanna;water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of ocean'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ocean
+  转换关系: ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from commercial to shrubland'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: commercial, shrubland
+  转换关系: commercial→shrubland
+  时相1指令: commercial;shrubland
+  时相2指令: commercial;shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from savanna to ocean'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ocean, savanna
+  转换关系: savanna→ocean
+  时相1指令: savanna;ocean
+  时相2指令: savanna;ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify mangrove changes'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mangrove
+  转换关系: background→mangrove, mangrove→background
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: impervious
+  转换关系: impervious→background
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new bare land and new ocean'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: bare land, ocean
+  转换关系: background→bare land, background→ocean
+  时相1指令: ocean;bare land
+  时相2指令: ocean;bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of transportation'
+  处理时间: 0.0104秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: transportation
+  转换关系: transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of ice'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ice
+  转换关系: ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new wetland and new savanna'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: savanna, wetland
+  转换关系: background→wetland, background→savanna
+  时相1指令: wetland;savanna
+  时相2指令: wetland;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new ocean and disappear building'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: building, ocean
+  转换关系: background→ocean, building→background
+  时相1指令: building;ocean
+  时相2指令: building;ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'sand disappeared'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: sand
+  转换关系: sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear shrubland and disappear mining'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: mining, shrubland
+  转换关系: shrubland→background, mining→background
+  时相1指令: mining;shrubland
+  时相2指令: mining;shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'ice disappeared'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ice
+  转换关系: ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear water and disappear forest'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: forest, water
+  转换关系: water→background, forest→background
+  时相1指令: forest;water
+  时相2指令: forest;water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear snow and new impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: impervious, snow
+  转换关系: snow→background, background→impervious
+  时相1指令: impervious;snow
+  时相2指令: impervious;snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'residential vanish'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: residential
+  转换关系: residential→background
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new orchard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: orchard
+  转换关系: background→orchard
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify ice changes'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ice
+  转换关系: background→ice, ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new bare land and disappear industrial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: bare land, industrial
+  转换关系: background→bare land, industrial→background
+  时相1指令: industrial;bare land
+  时相2指令: industrial;bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of industrial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: industrial
+  转换关系: background→industrial
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from cropland to grassland'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: cropland, grassland
+  转换关系: cropland→grassland
+  时相1指令: cropland;grassland
+  时相2指令: cropland;grassland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'savanna change detection'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: savanna
+  转换关系: background→savanna, savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from river to snow'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: river, snow
+  转换关系: river→snow
+  时相1指令: river;snow
+  时相2指令: river;snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'commercial vanish'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: commercial
+  转换关系: commercial→background
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new shrubland and new cropland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: cropland, shrubland
+  转换关系: background→shrubland, background→cropland
+  时相1指令: cropland;shrubland
+  时相2指令: cropland;shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new commercial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: commercial
+  转换关系: background→commercial
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'wetland change detection'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: wetland
+  转换关系: background→wetland, wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear river'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: river
+  转换关系: background→river
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of vineyard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: vineyard
+  转换关系: vineyard→background
+  时相1指令: vineyard
+  时相2指令: vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform water into lake'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: lake, water
+  转换关系: lake→water, water→lake
+  时相1指令: water;lake
+  时相2指令: water;lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'cropland vanish'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: cropland
+  转换关系: cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'mangrove change detection'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mangrove
+  转换关系: background→mangrove, mangrove→background
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear vineyard and new residential'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: residential, vineyard
+  转换关系: vineyard→background, background→residential
+  时相1指令: residential;vineyard
+  时相2指令: residential;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge savanna'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: savanna
+  转换关系: background→savanna
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of wetland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: wetland
+  转换关系: background→wetland
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of residential'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: residential
+  转换关系: background→residential
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge mining'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mining
+  转换关系: background→mining
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of industrial'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: industrial
+  转换关系: industrial→background
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from sand to building'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: building, sand
+  转换关系: sand→building
+  时相1指令: sand;building
+  时相2指令: sand;building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge ice'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: ice
+  转换关系: background→ice
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new savanna and new impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: impervious, savanna
+  转换关系: background→savanna, background→impervious
+  时相1指令: impervious;savanna
+  时相2指令: impervious;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new industrial and new grassland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: grassland, industrial
+  转换关系: background→industrial, background→grassland
+  时相1指令: industrial;grassland
+  时相2指令: industrial;grassland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of mining'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mining
+  转换关系: background→mining
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of grassland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: grassland
+  转换关系: grassland→background
+  时相1指令: grassland
+  时相2指令: grassland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from mining to mangrove'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: mangrove, mining
+  转换关系: mining→mangrove
+  时相1指令: mining;mangrove
+  时相2指令: mining;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting savanna change'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: savanna
+  转换关系: background→savanna, savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify snow changes'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: snow
+  转换关系: background→snow, snow→background
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify sand changes'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: sand
+  转换关系: background→sand, sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear sand and new vineyard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: sand, vineyard
+  转换关系: sand→background, background→vineyard
+  时相1指令: vineyard;sand
+  时相2指令: vineyard;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform ice into sand'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, sand
+  转换关系: ice→sand, sand→ice
+  时相1指令: sand;ice
+  时相2指令: sand;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new orchard and disappear ice'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: ice, orchard
+  转换关系: background→orchard, ice→background
+  时相1指令: orchard;ice
+  时相2指令: orchard;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of lake'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: lake
+  转换关系: lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify commercial changes'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: commercial
+  转换关系: background→commercial, commercial→background
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of industrial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: industrial
+  转换关系: industrial→background
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of residential'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: residential
+  转换关系: residential→background
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'mangrove disappeared'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: mangrove
+  转换关系: mangrove→background
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'water change detection'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: water
+  转换关系: background→water, water→background
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear bare land and new sand'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: bare land, sand
+  转换关系: bare land→background, background→sand
+  时相1指令: bare land;sand
+  时相2指令: bare land;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify mining changes'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mining
+  转换关系: background→mining, mining→background
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting forest change'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: forest
+  转换关系: background→forest, forest→background
+  时相1指令: forest
+  时相2指令: forest
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of savanna'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: savanna
+  转换关系: savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in mangrove'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: mangrove
+  转换关系: background→mangrove, mangrove→background
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear ocean and disappear industrial'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: industrial, ocean
+  转换关系: ocean→background, industrial→background
+  时相1指令: industrial;ocean
+  时相2指令: industrial;ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new lake and disappear bare land'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: bare land, lake
+  转换关系: background→lake, bare land→background
+  时相1指令: lake;bare land
+  时相2指令: lake;bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'savanna disappeared'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: savanna
+  转换关系: savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in snow'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: snow
+  转换关系: background→snow, snow→background
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting ice change'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ice
+  转换关系: background→ice, ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear river and disappear shrubland'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: river, shrubland
+  转换关系: river→background, shrubland→background
+  时相1指令: river;shrubland
+  时相2指令: river;shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new mangrove'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mangrove
+  转换关系: background→mangrove
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear savanna'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: savanna
+  转换关系: background→savanna
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'water disappeared'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: water
+  转换关系: water→background
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from cropland to forest'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: cropland, tree
+  转换关系: cropland→forest
+  时相1指令: cropland;tree
+  时相2指令: cropland;tree
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform sand into residential'
+  处理时间: 0.0107秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: residential, sand
+  转换关系: residential→sand, sand→residential
+  时相1指令: residential;sand
+  时相2指令: residential;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of commercial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: commercial
+  转换关系: commercial→background
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from vineyard to river'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: river, vineyard
+  转换关系: vineyard→river
+  时相1指令: vineyard;river
+  时相2指令: vineyard;river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform river into savanna'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: river, savanna
+  转换关系: river→savanna, savanna→river
+  时相1指令: river;savanna
+  时相2指令: river;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform impervious into mining'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: impervious, mining
+  转换关系: impervious→mining, mining→impervious
+  时相1指令: impervious;mining
+  时相2指令: impervious;mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new bare land and new sand'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: bare land, sand
+  转换关系: background→bare land, background→sand
+  时相1指令: bare land;sand
+  时相2指令: bare land;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear water and new industrial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: industrial, water
+  转换关系: water→background, background→industrial
+  时相1指令: industrial;water
+  时相2指令: industrial;water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from residential to cropland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: cropland, residential
+  转换关系: residential→cropland
+  时相1指令: residential;cropland
+  时相2指令: residential;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from ice to vineyard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, vineyard
+  转换关系: ice→vineyard
+  时相1指令: ice;vineyard
+  时相2指令: ice;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from wetland to ice'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, wetland
+  转换关系: wetland→ice
+  时相1指令: wetland;ice
+  时相2指令: wetland;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in ocean'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ocean
+  转换关系: background→ocean, ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'emerge cropland'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: cropland
+  转换关系: background→cropland
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of forest'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: forest
+  转换关系: forest→background
+  时相1指令: forest
+  时相2指令: forest
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from mangrove to sand'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: mangrove, sand
+  转换关系: mangrove→sand
+  时相1指令: mangrove;sand
+  时相2指令: mangrove;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in commercial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: commercial
+  转换关系: background→commercial, commercial→background
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new snow'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: snow
+  转换关系: background→snow
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of wetland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: wetland
+  转换关系: wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of ocean'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: ocean
+  转换关系: ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear sand and new commercial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: commercial, sand
+  转换关系: sand→background, background→commercial
+  时相1指令: commercial;sand
+  时相2指令: commercial;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear commercial and disappear cropland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: commercial, cropland
+  转换关系: commercial→background, cropland→background
+  时相1指令: commercial;cropland
+  时相2指令: commercial;cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of orchard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: orchard
+  转换关系: orchard→background
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform mining into grassland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: grassland, mining
+  转换关系: grassland→mining, mining→grassland
+  时相1指令: grassland;mining
+  时相2指令: grassland;mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in savanna'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: savanna
+  转换关系: background→savanna, savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from mining to savanna'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: mining, savanna
+  转换关系: mining→savanna
+  时相1指令: mining;savanna
+  时相2指令: mining;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify grassland changes'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: grassland
+  转换关系: background→grassland, grassland→background
+  时相1指令: grassland
+  时相2指令: grassland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new orchard and disappear residential'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: orchard, residential
+  转换关系: background→orchard, residential→background
+  时相1指令: residential;orchard
+  时相2指令: residential;orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear sand'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: sand
+  转换关系: background→sand
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new mining'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mining
+  转换关系: background→mining
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of commercial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: commercial
+  转换关系: background→commercial
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from sand to transportation'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: sand, transportation
+  转换关系: sand→transportation
+  时相1指令: sand;transportation
+  时相2指令: sand;transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from commercial to mangrove'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: commercial, mangrove
+  转换关系: commercial→mangrove
+  时相1指令: commercial;mangrove
+  时相2指令: commercial;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in cropland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: cropland
+  转换关系: background→cropland, cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in residential'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: residential
+  转换关系: background→residential, residential→background
+  时相1指令: residential
+  时相2指令: residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'commercial change detection'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: commercial
+  转换关系: background→commercial, commercial→background
+  时相1指令: commercial
+  时相2指令: commercial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear orchard and new ocean'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: ocean, orchard
+  转换关系: orchard→background, background→ocean
+  时相1指令: orchard;ocean
+  时相2指令: orchard;ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear shrubland and disappear vineyard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: shrubland, vineyard
+  转换关系: shrubland→background, vineyard→background
+  时相1指令: vineyard;shrubland
+  时相2指令: vineyard;shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear industrial'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: industrial
+  转换关系: background→industrial
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform building into industrial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: building, industrial
+  转换关系: building→industrial, industrial→building
+  时相1指令: building;industrial
+  时相2指令: building;industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from lake to impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: impervious, lake
+  转换关系: lake→impervious
+  时相1指令: lake;impervious
+  时相2指令: lake;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new water and new orchard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: orchard, water
+  转换关系: background→water, background→orchard
+  时相1指令: orchard;water
+  时相2指令: orchard;water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from ocean to wetland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ocean, wetland
+  转换关系: ocean→wetland
+  时相1指令: ocean;wetland
+  时相2指令: ocean;wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform grassland into ice'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: grassland, ice
+  转换关系: grassland→ice, ice→grassland
+  时相1指令: grassland;ice
+  时相2指令: grassland;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'ice change detection'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ice
+  转换关系: background→ice, ice→background
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting sand change'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: sand
+  转换关系: background→sand, sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear vineyard and disappear cropland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: cropland, vineyard
+  转换关系: vineyard→background, cropland→background
+  时相1指令: cropland;vineyard
+  时相2指令: cropland;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new ice and new impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: ice, impervious
+  转换关系: background→ice, background→impervious
+  时相1指令: impervious;ice
+  时相2指令: impervious;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appearance of impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: impervious
+  转换关系: background→impervious
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'forest vanish'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: forest
+  转换关系: forest→background
+  时相1指令: forest
+  时相2指令: forest
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: impervious
+  转换关系: background→impervious, impervious→background
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new industrial'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: industrial
+  转换关系: background→industrial
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of wetland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: wetland
+  转换关系: wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'river vanish'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: river
+  转换关系: river→background
+  时相1指令: river
+  时相2指令: river
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new ocean'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: ocean
+  转换关系: background→ocean
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from impervious to sand'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: impervious, sand
+  转换关系: impervious→sand
+  时相1指令: impervious;sand
+  时相2指令: impervious;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'shrubland disappeared'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: shrubland
+  转换关系: shrubland→background
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform ice into industrial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: ice, industrial
+  转换关系: ice→industrial, industrial→ice
+  时相1指令: industrial;ice
+  时相2指令: industrial;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of rock'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: rock
+  转换关系: rock→background
+  时相1指令: rock
+  时相2指令: rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'impervious disappeared'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: impervious
+  转换关系: impervious→background
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new transportation'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: transportation
+  转换关系: background→transportation
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'transform ice into commercial'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: commercial, ice
+  转换关系: commercial→ice, ice→commercial
+  时相1指令: commercial;ice
+  时相2指令: commercial;ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify cropland changes'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: cropland
+  转换关系: background→cropland, cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear grassland and disappear savanna'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: grassland, savanna
+  转换关系: grassland→background, savanna→background
+  时相1指令: grassland;savanna
+  时相2指令: grassland;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new shrubland'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: shrubland
+  转换关系: background→shrubland
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear sand and disappear mangrove'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: mangrove, sand
+  转换关系: sand→background, mangrove→background
+  时相1指令: sand;mangrove
+  时相2指令: sand;mangrove
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify orchard changes'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: orchard
+  转换关系: background→orchard, orchard→background
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new vineyard and new shrubland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: shrubland, vineyard
+  转换关系: background→vineyard, background→shrubland
+  时相1指令: vineyard;shrubland
+  时相2指令: vineyard;shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in bare land'
+  处理时间: 0.0109秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: bare land
+  转换关系: background→bare land, bare land→background
+  时相1指令: bare land
+  时相2指令: bare land
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new orchard and new vineyard'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: forward
+  涉及类别: orchard, vineyard
+  转换关系: background→orchard, background→vineyard
+  时相1指令: orchard;vineyard
+  时相2指令: orchard;vineyard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear building and disappear wetland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: building, wetland
+  转换关系: building→background, wetland→background
+  时相1指令: building;wetland
+  时相2指令: building;wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from orchard to residential'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: orchard, residential
+  转换关系: orchard→residential
+  时相1指令: orchard;residential
+  时相2指令: orchard;residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new water and disappear cropland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: cropland, water
+  转换关系: background→water, cropland→background
+  时相1指令: cropland;water
+  时相2指令: cropland;water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of sand'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: sand
+  转换关系: sand→background
+  时相1指令: sand
+  时相2指令: sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear water'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: water
+  转换关系: background→water
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappearance of orchard'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: orchard
+  转换关系: orchard→background
+  时相1指令: orchard
+  时相2指令: orchard
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting transportation change'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: transportation
+  转换关系: background→transportation, transportation→background
+  时相1指令: transportation
+  时相2指令: transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'ocean change detection'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: ocean
+  转换关系: background→ocean, ocean→background
+  时相1指令: ocean
+  时相2指令: ocean
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new vineyard and disappear impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: impervious, vineyard
+  转换关系: background→vineyard, impervious→background
+  时相1指令: vineyard;impervious
+  时相2指令: vineyard;impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'lake change detection'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: lake
+  转换关系: background→lake, lake→background
+  时相1指令: lake
+  时相2指令: lake
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear sand and new building'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: building, sand
+  转换关系: sand→background, background→building
+  时相1指令: building;sand
+  时相2指令: building;sand
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'disappear mining and disappear cropland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: backward
+  涉及类别: cropland, mining
+  转换关系: mining→background, cropland→background
+  时相1指令: cropland;mining
+  时相2指令: cropland;mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from wetland to mining'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: mining, wetland
+  转换关系: wetland→mining
+  时相1指令: wetland;mining
+  时相2指令: wetland;mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear building'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: building
+  转换关系: background→building
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear snow'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: snow
+  转换关系: background→snow
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from lake to residential'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: lake, residential
+  转换关系: lake→residential
+  时相1指令: lake;residential
+  时相2指令: lake;residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear grassland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: grassland
+  转换关系: background→grassland
+  时相1指令: grassland
+  时相2指令: grassland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from vineyard to grassland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: grassland, vineyard
+  转换关系: vineyard→grassland
+  时相1指令: vineyard;grassland
+  时相2指令: vineyard;grassland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'identify water changes'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: water
+  转换关系: background→water, water→background
+  时相1指令: water
+  时相2指令: water
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from orchard to residential'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: orchard, residential
+  转换关系: orchard→residential
+  时相1指令: orchard;residential
+  时相2指令: orchard;residential
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'snow change detection'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: snow
+  转换关系: background→snow, snow→background
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'industrial change detection'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: industrial
+  转换关系: background→industrial, industrial→background
+  时相1指令: industrial
+  时相2指令: industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'wetland vanish'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: wetland
+  转换关系: wetland→background
+  时相1指令: wetland
+  时相2指令: wetland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'conversion from wetland to building'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: building, wetland
+  转换关系: wetland→building
+  时相1指令: wetland;building
+  时相2指令: wetland;building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from wetland to transportation'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: transportation, wetland
+  转换关系: wetland→transportation
+  时相1指令: wetland;transportation
+  时相2指令: wetland;transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in shrubland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: shrubland
+  转换关系: background→shrubland, shrubland→background
+  时相1指令: shrubland
+  时相2指令: shrubland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear mining'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mining
+  转换关系: background→mining
+  时相1指令: mining
+  时相2指令: mining
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of cropland'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: cropland
+  转换关系: cropland→background
+  时相1指令: cropland
+  时相2指令: cropland
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear impervious'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: impervious
+  转换关系: background→impervious
+  时相1指令: impervious
+  时相2指令: impervious
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new rock'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: rock
+  转换关系: background→rock
+  时相1指令: rock
+  时相2指令: rock
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'find changes in building'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: building
+  转换关系: background→building, building→background
+  时相1指令: building
+  时相2指令: building
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new ice'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: ice
+  转换关系: background→ice
+  时相1指令: ice
+  时相2指令: ice
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'loss of savanna'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: disappearance
+  变化方向: backward
+  涉及类别: savanna
+  转换关系: savanna→background
+  时相1指令: savanna
+  时相2指令: savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'from grassland to transportation'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: grassland, transportation
+  转换关系: grassland→transportation
+  时相1指令: grassland;transportation
+  时相2指令: grassland;transportation
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'detecting snow change'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: all_changes
+  变化方向: bidirectional
+  涉及类别: snow
+  转换关系: background→snow, snow→background
+  时相1指令: snow
+  时相2指令: snow
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'change from residential to industrial'
+  处理时间: 0.0046秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: unidirectional_conversion
+  变化方向: forward
+  涉及类别: industrial, residential
+  转换关系: residential→industrial
+  时相1指令: residential;industrial
+  时相2指令: residential;industrial
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'new mining and disappear savanna'
+  处理时间: 0.0045秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: composite
+  变化方向: bidirectional
+  涉及类别: mining, savanna
+  转换关系: background→mining, savanna→background
+  时相1指令: mining;savanna
+  时相2指令: mining;savanna
+  置信度: 0.90
+------------------------------------------------------------
+转换指令: 'appear mangrove'
+  处理时间: 0.0044秒
+  ✓ 一级转换成功：精确匹配
+  来源: exact_match
+  变化语义: appearance
+  变化方向: forward
+  涉及类别: mangrove
+  转换关系: background→mangrove
+  时相1指令: mangrove
+  时相2指令: mangrove
+  置信度: 0.90
+------------------------------------------------------------
